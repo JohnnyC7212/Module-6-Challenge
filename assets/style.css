@@ -1,41 +1,13 @@
-.textbox {
-    border: 1px solid #ccc; 
-    padding: 10px; 
-    width: 300px; 
-}
-
 h1 {
-    position:relative;
+    position: relative;
     text-align: center;
-    background-color:goldenrod;
-    margin-top:20px;
+    background-color:blueviolet;
 }
 
-h2 {
-    position:relative;
-    color:black;
-}
-
-button {
-    background-color:aqua;
-    color:blue;
-    padding: 10px 20px; 
-    border: none;
-    border-radius: 5px; 
-    cursor: pointer;
-    border-bottom: 2px solid #007BFF;
-    margin-bottom: 15px;
-}
-
-button:hover {
-    background-color:#0056b3; 
-}
-
-body {
-    background-color:white;
-}
-
-.textbox{
-    color:black;
+.search-input {
+    position: relative;
+    width: 14px;
+    height: 50px;
+    font-size:16px;
 
 }
