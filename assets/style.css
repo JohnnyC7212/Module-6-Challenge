@@ -1,13 +1,20 @@
+.flex-container {
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+    background-color:blueviolet;
+    padding:10px;
+}
+
+
+
 h1 {
     position: relative;
     text-align: center;
     background-color:blueviolet;
 }
 
-.search-input {
-    position: relative;
-    width: 14px;
-    height: 50px;
-    font-size:16px;
-
+div {
+    text-align:center;
+    padding-top:20px;
 }
