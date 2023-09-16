@@ -32,6 +32,7 @@ function fetchForecastData(location) {
 // Function to display weather data on the webpage
 function displayWeatherData(data) {
     // Extract data from the API response
+   
     var cityName = data.name;
     var temperature = data.main.temp;
     var weatherDescription = data.weather[0].description;
@@ -46,6 +47,9 @@ function displayWeatherData(data) {
 
     var descriptionElement = document.createElement('p');
     descriptionElement.textContent = 'Description: ' + weatherDescription;
+
+
+
 
     //Creates HTML elements to display the data
     var cityNameElement = document.createElement('h2');
@@ -68,7 +72,8 @@ function displayWeatherData(data) {
     todayContainer.appendChild(temperatureElement);
     todayContainer.appendChild(descriptionElement);
     todayContainer.appendChild(weatherIconElement);
-    forecastItemElement.ap
+
+
 }
 
 

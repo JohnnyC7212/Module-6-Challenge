@@ -1,20 +1,20 @@
-.flex-container {
-    display: flex;
-    justify-content:center; 
-    align-items: center;
-    background-color:blueviolet;
-    padding:10px;
-}
-
-
 
 h1 {
     position: relative;
     text-align: center;
     background-color:blueviolet;
+    
 }
 
 div {
     text-align:center;
     padding-top:20px;
+    background-color: azure;
+    
+}
+
+form {
+    text-align: center;
+    
+    
 }
